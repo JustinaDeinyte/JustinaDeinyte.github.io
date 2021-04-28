@@ -106,10 +106,10 @@ nav img {
   margin-top: 150px;
   margin-left: 500px; */
 
-  background-image: url("https://github.com/JustinaDeinyte/JustinaDeinyte.github.io/blob/main/assets/JUSTINA-outlined.png?raw=true");
+  background-image: url("https://github.com/JustinaDeinyte/JustinaDeinyte.github.io/blob/main/assets/JUSTINA-outlined-full.png?raw=true");
   background-repeat: no-repeat;
   height: 100%;
-  width: 1200px;
+  width: 1auto;
   margin-top: -15%;
-  margin-left: 50%;
+  margin-left: 30%;
 }
