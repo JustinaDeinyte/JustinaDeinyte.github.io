@@ -6,6 +6,7 @@
   text-decoration: none;
 }
 
+
 body {
   width: 100%;
   height: 100vh;
@@ -13,34 +14,50 @@ body {
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  font-family: "Gilda Display";
 }
 
 .background {
-  /* display: flex; */
+  
+  min-height: 100%;
+  min-width: 1024px;  
   width: 100%;
-  height: 100vh;
+  height: auto;
   position: absolute;
-  overflow: hidden;
-}
+  background-size: cover;
+	
+  
+  }
 
 .texture {
-  background-image: url("./assets/texture.png");
+  background-image: url("https://github.com/JustinaDeinyte/JustinaDeinyte.github.io/blob/main/assets/texture.png?raw=true");
   /* background-repeat: no-repeat; */
-  mix-blend-mode: overlay;
-
-  height: 100%;
-  width: 1600px;
-  overflow: hidden;
+  height: 1800px;
+  width: 100%;
+  /* mix-blend-mode: overlay; */
+  opacity: 0.2;
+  top:0;
+  left: 0;
+  
+  overflow: hidden;  
+  z-index: 50;
+ 
 }
 
 .gradient {
-  background-image: url("./assets/Gradient.png");
+  background-image: url("https://github.com/JustinaDeinyte/JustinaDeinyte.github.io/blob/main/assets/Gradient.png?raw=true");
   background-repeat: no-repeat;
-  height: 100%;
+  height: 100vh;
   width: 551px;
-  margin-left: 1128px;
-  margin-top: -900px;
+  top:0;
+  right: 0;
+  margin-right: -100px;
+  position: fixed;  
   overflow: hidden;
+  z-index: -1;
+  
+  
+  
 }
 
 nav {
@@ -61,8 +78,8 @@ nav img {
 .pages {
   width: 200px;
   height: 120px;
-  margin-top: 250px;
-  margin-left: 235px;
+  margin-top: 15%;
+  margin-left: 15%;
   display: flex;
   flex-direction: column;
 }
@@ -72,13 +89,13 @@ nav img {
 }
 
 .social-media {
-  margin-top: 90px;
-  margin-left: 90%;
+  position:absolute;
+  bottom:0;
+  right:0;
+  margin: 40px;
   font-size: 24px;
   color: black;
   text-decoration: underline;
-  height: 110px;
-  width: 110px;
   display: flex;
   flex-direction: column;
   z-index: 2;
