@@ -118,7 +118,7 @@ nav img {
 }
 */
 
-#rssBlock{
+#nameBlock{
   left:0px;
   height: 80px;
   background: #FFFFFF;
@@ -128,7 +128,7 @@ nav img {
 }
 
 /*remove p*/
-.cnnContents {
+.blockContents {
   width:100%;
   padding-top: 20px;
   margin:0 auto;
