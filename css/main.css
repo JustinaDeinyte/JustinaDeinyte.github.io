@@ -120,8 +120,7 @@ nav img {
 
 #nameBlock{
   left:0px;
-  height: 80px;
-  background: #FFFFFF;
+  height: 500px;
   position: absolute;
   width:1070px;
   overflow: hidden;
@@ -131,7 +130,7 @@ nav img {
 .blockContents {
   width:100%;
   padding-top: 20px;
-  margin:500 auto;
+  margin-top: 50%
   font-size: 600px;
   white-space: nowrap;
   text-transform: uppercase;
