@@ -130,12 +130,12 @@ nav img {
 .blockContents {
   width:100%;
   padding-top: 20px;
-  margin-top: 50%
-  font-size: 600px;
+  margin-top: 50%;
+  font-size: 400px;
   white-space: nowrap;
   text-transform: uppercase;
   font-family: 'Museo';
-  font-weight: 300;
+  /*font-weight: 300;*/
 }
 
 .marqueeStyle {
