@@ -119,11 +119,12 @@ nav img {
 */
 
 #nameBlock{
-  left:0px;
-  height: 500px;
+  right:0px;
+  height: 600px;
   position: absolute;
-  width:1070px;
+  width:100%;
   overflow: hidden;
+  margin-top: 200px;
 }
 
 /*remove p*/
@@ -135,6 +136,8 @@ nav img {
   white-space: nowrap;
   text-transform: uppercase;
   font-family: 'Museo';
+  color:transparent;
+  -webkit-text-stroke: 1px rgb(255, 255, 255);
   /*font-weight: 300;*/
 }
 
