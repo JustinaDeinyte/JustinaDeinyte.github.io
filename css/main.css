@@ -131,12 +131,12 @@ nav img {
 .blockContents {
   width:100%;
   padding-top: 20px;
-  margin-top: 50%;
+  margin-top: 90px;
   font-size: 400px;
   white-space: nowrap;
   text-transform: uppercase;
   font-family: 'Museo';
-  color:transparent;
+  color: #F6EDE8;
   -webkit-text-stroke: 1px rgb(255, 255, 255);
   /*font-weight: 300;*/
 }
